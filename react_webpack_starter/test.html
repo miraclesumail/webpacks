@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+       <canvas id="canvas" width="300" height="300"></canvas>
+
+       <script>
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext("2d");
+
+            ctx.strokeStyle="green";
+            ctx.fillStyle = "#f5d300";
+            ctx.font = "20px Arial";
+            ctx.textAlign = "center";
+            ctx.beginPath();
+            ctx.arc(150,150,100,0,2*Math.PI);
+            ctx.stroke();
+            // ctx.fillText("12", 150, 70);
+            // ctx.fillText("1", 200 , 70 + 100 - Math.sin(1/3*Math.PI)*100);
+            
+            for(var i = 12; i > 0; i--) {
+                const height = ctx.measureText('1').width;
+                console.log(height);
+                ctx.fillText(12 - i + '', 150 + Math.sin((12 - i)/6*Math.PI)*86, 64 + Math.ceil(height)/2 + 1 + 86 - Math.cos((12 - i)/6*Math.PI)*86);
+            }
+
+
+// var measureFontHeight = function (canvas, fontStyle) {
+//     var context = canvas.getContext("2d");
+
+//     var sourceWidth = canvas.width;
+//     var sourceHeight = canvas.height;
+
+//     context.font = fontStyle;
+    
+//     // place the text somewhere
+//     context.textAlign = "left";
+//     context.textBaseline = "top";
+//     context.fillText("fißgPauljMPÜÖÄ", 25, 5);
+
+//     // returns an array containing the sum of all pixels in a canvas
+//     // * 4 (red, green, blue, alpha)
+//     // [pixel1Red, pixel1Green, pixel1Blue, pixel1Alpha, pixel2Red ...]
+//     var data = context.getImageData(0, 0, sourceWidth, sourceHeight).data;
+
+//     var firstY = -1;
+//     var lastY = -1;
+
+//     // loop through each row
+//     for(var y = 0; y < sourceHeight; y++) {
+//         // loop through each column
+//         for(var x = 0; x < sourceWidth; x++) {
+//             //var red = data[((sourceWidth * y) + x) * 4];
+//             //var green = data[((sourceWidth * y) + x) * 4 + 1];
+//             //var blue = data[((sourceWidth * y) + x) * 4 + 2];
+//             var alpha = data[((sourceWidth * y) + x) * 4 + 3];
+
+//             if(alpha > 0) {
+//                 firstY = y;
+//                 // exit the loop
+//                 break;
+//             }
+//         }
+//         if(firstY >= 0) {
+//             // exit the loop
+//             break;
+//         }
+
+//     }
+
+//     // loop through each row, this time beginning from the last row
+//     for(var y = sourceHeight; y > 0; y--) {
+//         // loop through each column
+//         for(var x = 0; x < sourceWidth; x++) {
+//             var alpha = data[((sourceWidth * y) + x) * 4 + 3];
+//             if(alpha > 0) {
+//                 lastY = y;
+//                 // exit the loop
+//                 break;
+//             }
+//         }
+//         if(lastY >= 0) {
+//             // exit the loop
+//             break;
+//         }
+
+//     }
+
+//     return {
+//         // The actual height
+//         height: lastY - firstY,
+
+//         // The first pixel
+//         firstPixel: firstY,
+
+//         // The last pixel
+//         lastPixel: lastY
+//     }
+
+// };
+
+       </script>
+    </body>
+</html>

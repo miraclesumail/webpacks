@@ -1,3 +1,7 @@
+body{
+  padding: 0; margin: 0
+}
+
 .Game {
   display: inline-block;
   position: relative;
@@ -10,6 +14,18 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin-bottom: 1rem;
+}
+
+.page {
+  width: 20px;
+  height: 20px;
+  border: 1px solid green
+}
+
+div {
+  &.active {
+    background: yellow
+  }
 }
 
 .Square {
@@ -113,3 +129,64 @@
     transform: scale(0.99);
   }
 }
+
+.menu-item{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    &.active{
+        background: #f5d300
+    }
+}
+
+.menus-enter, .menus-appear {
+  opacity: 0;
+  transform: translateY(150px);
+}
+.menus-enter-active, .menus-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.menus-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+.menus-exit-active {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.control{
+    position: absolute;
+    width:80px;
+    left: calc(50% - 40px);
+    display: flex;
+    justify-content: 'space-between';
+    button{
+      width:30px;
+      height: 20px;
+    }
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+

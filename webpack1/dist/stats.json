@@ -1,0 +1,1129 @@
+{
+  "errors": [
+  ],
+  "warnings": [
+  ],
+  "version": "4.32.2",
+  "hash": "7ccdf43e39162e6250fe",
+  "time": 5941,
+  "builtAt": 1560696668338,
+  "publicPath": "",
+  "outputPath": "/Users/sumail/webpacks/webpack1/dist",
+  "assetsByChunkName": {
+    "page1": "page1.7ccdf43e39162e6250fe.js",
+    "page2": "page2.7ccdf43e39162e6250fe.js"
+  },
+  "assets": [
+    {
+      "name": "page1.7ccdf43e39162e6250fe.js",
+      "size": 500122,
+      "chunks": [
+        "page1"
+      ],
+      "chunkNames": [
+        "page1"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "page2.7ccdf43e39162e6250fe.js",
+      "size": 334390,
+      "chunks": [
+        "page2"
+      ],
+      "chunkNames": [
+        "page2"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "page1": {
+      "chunks": [
+        "page1"
+      ],
+      "assets": [
+        "page1.7ccdf43e39162e6250fe.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    },
+    "page2": {
+      "chunks": [
+        "page2"
+      ],
+      "assets": [
+        "page2.7ccdf43e39162e6250fe.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "page1": {
+      "chunks": [
+        "page1"
+      ],
+      "assets": [
+        "page1.7ccdf43e39162e6250fe.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    },
+    "page2": {
+      "chunks": [
+        "page2"
+      ],
+      "assets": [
+        "page2.7ccdf43e39162e6250fe.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": "page1",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 479309,
+      "names": [
+        "page1"
+      ],
+      "files": [
+        "page1.7ccdf43e39162e6250fe.js"
+      ],
+      "hash": "57670e768ac9b64a0e9c",
+      "siblings": [
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "multi ./src/index.js",
+          "name": "multi ./src/index.js",
+          "index": 0,
+          "index2": 5,
+          "size": 28,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page1"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "multi entry"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 0
+        },
+        {
+          "id": "./node_modules/lodash/lodash.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "name": "./node_modules/lodash/lodash.js",
+          "index": 2,
+          "index2": 3,
+          "size": 477709,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page1"
+          ],
+          "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi ./src/index.js",
+              "name": "multi ./src/index.js"
+            },
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "lodash",
+              "loc": "3:14-31"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": "./node_modules/webpack/buildin/amd-options.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/webpack/buildin/amd-options.js",
+          "name": "(webpack)/buildin/amd-options.js",
+          "index": 5,
+          "index2": 2,
+          "size": 80,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page1"
+          ],
+          "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "issuerId": "./node_modules/lodash/lodash.js",
+          "issuerName": "./node_modules/lodash/lodash.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi ./src/index.js",
+              "name": "multi ./src/index.js"
+            },
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": "./node_modules/lodash/lodash.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+              "name": "./node_modules/lodash/lodash.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "type": "amd require",
+              "userRequest": "define.amd",
+              "loc": "9411:38-48"
+            },
+            {
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "type": "amd require",
+              "userRequest": "define.amd",
+              "loc": "9411:61-71"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": "./node_modules/webpack/buildin/global.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/webpack/buildin/global.js",
+          "name": "(webpack)/buildin/global.js",
+          "index": 3,
+          "index2": 0,
+          "size": 806,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page1"
+          ],
+          "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "issuerId": "./node_modules/lodash/lodash.js",
+          "issuerName": "./node_modules/lodash/lodash.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi ./src/index.js",
+              "name": "multi ./src/index.js"
+            },
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": "./node_modules/lodash/lodash.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+              "name": "./node_modules/lodash/lodash.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "type": "cjs require",
+              "userRequest": "global",
+              "loc": "1:0-41"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": "./node_modules/webpack/buildin/module.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/webpack/buildin/module.js",
+          "name": "(webpack)/buildin/module.js",
+          "index": 4,
+          "index2": 1,
+          "size": 521,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page1",
+            "page2"
+          ],
+          "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+          "issuerId": "./node_modules/jquery/dist/jquery.js",
+          "issuerName": "./node_modules/jquery/dist/jquery.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi ./src/main.js",
+              "name": "multi ./src/main.js"
+            },
+            {
+              "id": "./src/main.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+              "name": "./src/main.js"
+            },
+            {
+              "id": "./node_modules/jquery/dist/jquery.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+              "name": "./node_modules/jquery/dist/jquery.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/jquery/dist/jquery.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-44"
+            },
+            {
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-41"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+          "name": "./src/index.js",
+          "index": 1,
+          "index2": 4,
+          "size": 165,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page1"
+          ],
+          "issuer": "multi ./src/index.js",
+          "issuerId": 0,
+          "issuerName": "multi ./src/index.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi ./src/index.js",
+              "name": "multi ./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "multi ./src/index.js",
+              "module": "multi ./src/index.js",
+              "moduleName": "multi ./src/index.js",
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "page1[0]"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 1
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "page1",
+          "request": null,
+          "reasons": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page2",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 284772,
+      "names": [
+        "page2"
+      ],
+      "files": [
+        "page2.7ccdf43e39162e6250fe.js"
+      ],
+      "hash": "470192cfd1db261a33ab",
+      "siblings": [
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "multi ./src/main.js",
+          "name": "multi ./src/main.js",
+          "index": 6,
+          "index2": 8,
+          "size": 28,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page2"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "multi entry"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 0
+        },
+        {
+          "id": "./node_modules/jquery/dist/jquery.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+          "name": "./node_modules/jquery/dist/jquery.js",
+          "index": 8,
+          "index2": 6,
+          "size": 283858,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page2"
+          ],
+          "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+          "issuerId": "./src/main.js",
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi ./src/main.js",
+              "name": "multi ./src/main.js"
+            },
+            {
+              "id": "./src/main.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+              "name": "./src/main.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "type": "cjs require",
+              "userRequest": "$",
+              "loc": "1:0-17"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": "./node_modules/webpack/buildin/module.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/webpack/buildin/module.js",
+          "name": "(webpack)/buildin/module.js",
+          "index": 4,
+          "index2": 1,
+          "size": 521,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page1",
+            "page2"
+          ],
+          "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+          "issuerId": "./node_modules/jquery/dist/jquery.js",
+          "issuerName": "./node_modules/jquery/dist/jquery.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi ./src/main.js",
+              "name": "multi ./src/main.js"
+            },
+            {
+              "id": "./src/main.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+              "name": "./src/main.js"
+            },
+            {
+              "id": "./node_modules/jquery/dist/jquery.js",
+              "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+              "name": "./node_modules/jquery/dist/jquery.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/jquery/dist/jquery.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-44"
+            },
+            {
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "type": "cjs require",
+              "userRequest": "module",
+              "loc": "1:0-41"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": "./src/main.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+          "name": "./src/main.js",
+          "index": 7,
+          "index2": 7,
+          "size": 365,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "page2"
+          ],
+          "issuer": "multi ./src/main.js",
+          "issuerId": 1,
+          "issuerName": "multi ./src/main.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi ./src/main.js",
+              "name": "multi ./src/main.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "multi ./src/main.js",
+              "module": "multi ./src/main.js",
+              "moduleName": "multi ./src/main.js",
+              "type": "single entry",
+              "userRequest": "./src/main.js",
+              "loc": "page2[0]"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 1
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "page2",
+          "request": null,
+          "reasons": [
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "multi ./src/index.js",
+      "name": "multi ./src/index.js",
+      "index": 0,
+      "index2": 5,
+      "size": 28,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page1"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "multi entry"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 0
+    },
+    {
+      "id": 1,
+      "identifier": "multi ./src/main.js",
+      "name": "multi ./src/main.js",
+      "index": 6,
+      "index2": 8,
+      "size": 28,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page2"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "multi entry"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 0
+    },
+    {
+      "id": "./node_modules/jquery/dist/jquery.js",
+      "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+      "name": "./node_modules/jquery/dist/jquery.js",
+      "index": 8,
+      "index2": 6,
+      "size": 283858,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page2"
+      ],
+      "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+      "issuerId": "./src/main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi ./src/main.js",
+          "name": "multi ./src/main.js"
+        },
+        {
+          "id": "./src/main.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+          "name": "./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "type": "cjs require",
+          "userRequest": "$",
+          "loc": "1:0-17"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": "./node_modules/lodash/lodash.js",
+      "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+      "name": "./node_modules/lodash/lodash.js",
+      "index": 2,
+      "index2": 3,
+      "size": 477709,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page1"
+      ],
+      "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi ./src/index.js",
+          "name": "multi ./src/index.js"
+        },
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+          "name": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "lodash",
+          "loc": "3:14-31"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": "./node_modules/webpack/buildin/amd-options.js",
+      "identifier": "/Users/sumail/webpacks/webpack1/node_modules/webpack/buildin/amd-options.js",
+      "name": "(webpack)/buildin/amd-options.js",
+      "index": 5,
+      "index2": 2,
+      "size": 80,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page1"
+      ],
+      "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+      "issuerId": "./node_modules/lodash/lodash.js",
+      "issuerName": "./node_modules/lodash/lodash.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi ./src/index.js",
+          "name": "multi ./src/index.js"
+        },
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./node_modules/lodash/lodash.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "name": "./node_modules/lodash/lodash.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "type": "amd require",
+          "userRequest": "define.amd",
+          "loc": "9411:38-48"
+        },
+        {
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "type": "amd require",
+          "userRequest": "define.amd",
+          "loc": "9411:61-71"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/webpack/buildin/global.js",
+      "name": "(webpack)/buildin/global.js",
+      "index": 3,
+      "index2": 0,
+      "size": 806,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page1"
+      ],
+      "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+      "issuerId": "./node_modules/lodash/lodash.js",
+      "issuerName": "./node_modules/lodash/lodash.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi ./src/index.js",
+          "name": "multi ./src/index.js"
+        },
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./node_modules/lodash/lodash.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "name": "./node_modules/lodash/lodash.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-41"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    },
+    {
+      "id": "./node_modules/webpack/buildin/module.js",
+      "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/webpack/buildin/module.js",
+      "name": "(webpack)/buildin/module.js",
+      "index": 4,
+      "index2": 1,
+      "size": 521,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page1",
+        "page2"
+      ],
+      "issuer": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+      "issuerId": "./node_modules/jquery/dist/jquery.js",
+      "issuerName": "./node_modules/jquery/dist/jquery.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi ./src/main.js",
+          "name": "multi ./src/main.js"
+        },
+        {
+          "id": "./src/main.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+          "name": "./src/main.js"
+        },
+        {
+          "id": "./node_modules/jquery/dist/jquery.js",
+          "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+          "name": "./node_modules/jquery/dist/jquery.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/jquery/dist/jquery.js",
+          "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/jquery/dist/jquery.js",
+          "module": "./node_modules/jquery/dist/jquery.js",
+          "moduleName": "./node_modules/jquery/dist/jquery.js",
+          "type": "cjs require",
+          "userRequest": "module",
+          "loc": "1:0-44"
+        },
+        {
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "moduleIdentifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "type": "cjs require",
+          "userRequest": "module",
+          "loc": "1:0-41"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    },
+    {
+      "id": "./src/index.js",
+      "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/index.js",
+      "name": "./src/index.js",
+      "index": 1,
+      "index2": 4,
+      "size": 165,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page1"
+      ],
+      "issuer": "multi ./src/index.js",
+      "issuerId": 0,
+      "issuerName": "multi ./src/index.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi ./src/index.js",
+          "name": "multi ./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "multi ./src/index.js",
+          "module": "multi ./src/index.js",
+          "moduleName": "multi ./src/index.js",
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "page1[0]"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 1
+    },
+    {
+      "id": "./src/main.js",
+      "identifier": "/Users/sumail/webpacks/webpack1/node_modules/babel-loader/lib/index.js!/Users/sumail/webpacks/webpack1/src/main.js",
+      "name": "./src/main.js",
+      "index": 7,
+      "index2": 7,
+      "size": 365,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "page2"
+      ],
+      "issuer": "multi ./src/main.js",
+      "issuerId": 1,
+      "issuerName": "multi ./src/main.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi ./src/main.js",
+          "name": "multi ./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "multi ./src/main.js",
+          "module": "multi ./src/main.js",
+          "moduleName": "multi ./src/main.js",
+          "type": "single entry",
+          "userRequest": "./src/main.js",
+          "loc": "page2[0]"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 1
+    }
+  ],
+  "filteredModules": 0,
+  "children": [
+  ]
+}

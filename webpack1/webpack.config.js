@@ -2,12 +2,24 @@ const path = require('path');
 var ExtractTextWebpackPlugin = require("extract-text-webpack-plugin")
 const UglifyjsWebpackPlugin = require('uglifyjs-webpack-plugin')
 const Webpack = require('webpack')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-    entry: './src/main.js', //入口文件，src下的index.js
+    //entry: './src/main.js', //入口文件，src下的index.js
+    entry: {
+        page1: ['./src/index.js'], 
+        page2: ['./src/main.js'], 
+    },
     output: {
         path: path.join(__dirname, 'dist'), // 出口目录，dist文件 打包出来的都是在内存中  不是磁盘中
         filename: '[name].[hash].js', //这里name就是打包出来的文件名，因为是单入口，就是main，多入口下回分解
+    },
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                 commons: { test: /[\\/]node_modules[\\/]/, name: "common", chunks: "async" }
+            }
+        }
     },
     module: {
         rules: [
@@ -60,7 +72,12 @@ module.exports = {
          new Webpack.ProvidePlugin({
             '$': 'jquery'
          }),
-         new Webpack.HotModuleReplacementPlugin()
+         new Webpack.HotModuleReplacementPlugin(),
+         new BundleAnalyzerPlugin({
+      analyzerMode: 'disabled',
+      generateStatsFile: true,
+      statsOptions: { source: false }
+    })
     ],
     devServer: {
         contentBase: path.join(__dirname, "dist"), //静态文件根目录
